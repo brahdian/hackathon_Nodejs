@@ -2,6 +2,7 @@ import express, { json, urlencoded } from "express";
 import cors from "cors";
 import helmet from "helmet";
 import { db } from "./auth/auth.model.js"
+import { dbConfig } from "./config/db.config.js";
 
 
 const app = express();
